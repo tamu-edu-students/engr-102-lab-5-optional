@@ -24,7 +24,7 @@ $$risk = 100 / (1 + e^n)$$
 
 Write a program named `diabetes_risk.py` that calculates the risk of developing type-2 diabetes based on user input.
 
-Example output (using inputs: `F`, `37`, `26`, `n`, `n`, `n`, `n`):
+Example output (using inputs: `F`, `37`, `26`, `n`, `n`, `n`, `n`, `n`):
 ```
 Enter your sex (M/F): F
 Enter your age (years): 37
@@ -37,4 +37,18 @@ Do you have a family history of diabetes (Y/N)? n
 Your risk of developing type-2 diabetes is 1.5%
 ```
 
-Revised Summer 2026 SNR
+Example output (using inputs: `M`, `23`, `28`, `n`, `y`, `n`, `Y`, `Y`, `y`):
+```
+Enter your sex (M/F): M
+Enter your age (years): 23
+Enter your BMI: 28
+Are you on medication for hypertension (Y/N)? n
+Are you on steroids (Y/N)? y
+Do you smoke cigarettes (Y/N)? n
+Did you used to smoke (Y/N)? Y
+Do you have a family history of diabetes (Y/N)? Y
+Both parent and sibling (Y/N)? y
+Your risk of developing type-2 diabetes is 45.6%
+```
+
+Revised Fall 2026 SNR
