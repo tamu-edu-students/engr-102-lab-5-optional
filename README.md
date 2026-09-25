@@ -37,18 +37,17 @@ Do you have a family history of diabetes (Y/N)? n
 Your risk of developing type-2 diabetes is 1.5%
 ```
 
-Example output (using inputs: `M`, `23`, `28`, `n`, `y`, `n`, `Y`, `Y`, `y`):
+Example output (using inputs: `m`, `23`, `31`, `Y`, `y`, `y`, `Y`, `Y`):
 ```
-Enter your sex (M/F): M
+Enter your sex (M/F): m
 Enter your age (years): 23
-Enter your BMI: 28
-Are you on medication for hypertension (Y/N)? n
+Enter your BMI: 31
+Are you on medication for hypertension (Y/N)? Y
 Are you on steroids (Y/N)? y
-Do you smoke cigarettes (Y/N)? n
-Did you used to smoke (Y/N)? Y
+Do you smoke cigarettes (Y/N)? y
 Do you have a family history of diabetes (Y/N)? Y
-Both parent and sibling (Y/N)? y
-Your risk of developing type-2 diabetes is 45.6%
+Both parent and sibling (Y/N)? Y
+Your risk of developing type-2 diabetes is 93.5%
 ```
 
 Revised Fall 2026 SNR
